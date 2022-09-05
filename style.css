@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    border-bottom: solid 4px #ebe9e9;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.buttomNav{
+    background-color: #0a98fe10 ;
+    color: 	#0A99FE;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 0 0 0 ;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.buttomNav:hover{
+    background-color: #0A99FE ;
+    color: 	#ffffff;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 0 0 0 ;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.cardsRow{
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.cardContainer{
+    height: 275px;
+    width: 207px;
+    background-color:#ebe9e9;
+    border-radius: 15px;
+}
+
+.imageContainer{
+    height: 130px;
+    width: 207px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #868383 solid 0.5px;
+}
+.cardImage{
+    max-height: 95%;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+h4{
+    color:#868383;
+    text-align: center;
+    font-size: 16px;
+}
